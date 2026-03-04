@@ -4,7 +4,7 @@ with batch_size AS
   count(*)as item_count
   from inventory
   group by item_type
-),
+),              
 prime_cal AS
 (
   select item_type,
